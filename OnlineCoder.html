@@ -1,0 +1,46 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>OnlineCoder</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" type="text/css" href="style/online-coder.css" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div id="top-bar">
+        <div id="title-div">
+            <h1>OnlineCoder</h1>
+        </div>
+        <div id="buttons-div">
+            <div>
+                <div id="HTML" class="button on">HTML</div>
+                <div id="CSS" class="button on">CSS</div>
+                <div id="JavaScript" class="button on">JavaScript</div>
+                <div id="Output" class="button on">Output</div>
+            </div>
+        </div>
+        
+    </div>
+    <div id="code-section">
+        <textarea id="area-HTML" type="text" ><p id="demo">fico</p></textarea>
+        <textarea id="area-CSS" type="text" >p {color:red;}</textarea>
+        <textarea id="area-JavaScript" type="text" >function myFunction() {
+   document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+
+// Uncomment this line to test
+// myFunction();</textarea>
+        <iframe id="area-Output"></iframe>
+    </div>
+
+    <script src="scripts/online-coder.js"></script>
+</body>
+</html>

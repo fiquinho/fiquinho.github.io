@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Reaction tester</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="style/reaction-tester.css">
+    
+</head>
+
+<body>
+
+    <h1>Reaction tester</h1>
+    <p>The objective of this game is to click the shapes as fast as you can. You have 30 seconds.</p>
+    <p>Click the start button to begin.</p>
+    <p>Good luck, have fun!</p>
+    
+    <div id="game-board">
+
+        <button id="start-button">
+            Start!
+        </button>
+        <p id="time-up">Time is up!</p>
+        <div id="shape"></div>
+
+    </div>
+
+    <p>Total time: <span id="total-time"></span></p>
+    <p>Last reaction time: <span id="last-reaction-time"></span></p>
+    <p>Best reaction time: <span id="best-reaction"></span></p>
+    <p>Number of plays: <span id="number-plays"></span></p>
+    
+    
+    <script src="scripts/reaction-tester.js"></script>
+    
+</body>
+
+</html>

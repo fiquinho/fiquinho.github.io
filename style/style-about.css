@@ -1,0 +1,85 @@
+
+/* Elements */
+
+html {
+    font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+a:link, a:visited {
+    color: #009688;
+}
+
+/* Id */
+
+.header-nav {
+    max-width: 800px;
+}
+
+#primary-div {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+}
+
+#profile-picture {
+
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    border-style: solid;
+    border-color: #009688;
+    border-width: 5px;
+    
+    /* Prueba */
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    
+    
+}
+
+#header-div {
+  margin: 5px;
+  padding: 15px;
+  border-radius: 15px;
+  height: fit-content;
+  min-height: 190px;
+  
+  /* Prueba */
+  position: relative;
+}
+
+#personal-intro {
+    /* Cambio 
+    padding-left: 250px;
+    max-width: 500px;
+    */
+    
+    
+    
+    margin: 10px auto;
+    
+    /* Prueba */
+    width: 50%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+#footer {
+    text-align: center;
+}
+
+
+
+
+
+
+

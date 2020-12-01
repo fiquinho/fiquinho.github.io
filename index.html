@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>FicoBogado Personal Portfolio</title>
+
+  <!-- Font-Family -->
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
+  
+  <!--Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Colors CSS -->
+  <link rel="stylesheet" type="text/css" href="style/colors.css" />
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" type="text/css" href="style/index-style.css" />
+  <link href="style/jquery.bxslider.css" rel="stylesheet" />
+
+  <!-- JQuery UI -->
+  <link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+  <script src="jquery-ui/jquery-ui.js"></script>
+
+</head>
+
+<body>
+  
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid central-column title-font">
+
+      <!-- Navigation bar header -->
+      <div class="navbar-header">
+
+        <!-- Button for navbar expansion -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+        </button>
+
+        <!-- Logo/Brand -->
+        <a class="navbar-brand" href="#">FicoBogado</a>
+      </div>
+
+      <!-- Buttons navigation bar -->
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#first-section">Home</a></li>
+          <li><a href="#about-section">About</a></li>
+          <li><a href="#portfolio-section">Portfolio</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="https://twitter.com/FedBogado" target="_blank">Twitter</a></li>
+              <li><a href="https://github.com/fiquinho" target="_blank">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/federico-bogado-2a5226a9/" target="_blank">LinkedIn</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="first-section">
+    <div class="central-column">
+      <div class="container-fluid">
+        <div class="row row-eq-height">
+          <div class="col-sm-6">
+            <div class="first-section-text">
+              <h2>Web Development</h2>
+              <p>Let's make your ideas come to life</p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="first-section-image">
+              <img id="computer-images" src="images/dual-screen-no-background-2.png" alt="Computers images" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="about-section">
+    <div class="central-column">
+      <div class="container-fluid">
+        <div class="row row-eq-height">
+          <div class="col-sm-6">
+            <div class="section-image">
+              <img id="profile-picture" src="images/fotoperfil.jpg" alt="FicoBogado profile picture" />
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="section-text">
+              <h2>About me</h2>
+              <p>Hi there! I'm a Mechanical Engineer student, from Rosario, Argentina. I'm also a big time nerd and gamer. I love to learn stuff online, and I recently started to dive into Web Development and Artificial Intelligence, skills I would like to put into practice on some real projects.</p>
+            </div>
+            <p id="read-more"><a href="about.html" target="_blank">Read more!</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <section id="portfolio-section">
+    <div class="central-column">
+      <h2>My projects</h2>
+      <div class="slider1">
+
+        <div class="slide">
+          
+          <div class="container-fluid">
+            <div class="row row-eq-height">
+              
+              <div class="col-sm-6">
+                <div class="portfolio-section-image">
+                  <div>
+                    <div class="technologies-used">
+                      <h3>Used technologies:</h3>
+                      <p><a href="http://jquery.com/" target="_blank">JQuery</a></p>
+                      <p><a href="http://jqueryui.com/" target="_blank">JQuery-UI</a></p>
+                      <p><a href="https://www.javascript.com/" target="_blank">JavaScript</a></p>
+                    </div>
+                    <div class="viewProject" id="open-servicio-tecnico-INDIV">Open Project!</div>
+                    <img class="project-background" src="images/project-background.png" />
+                    <img src="images/servicio_tecnico_INDIV.png" alt="project-thumnail" />
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-sm-6">
+                <div class="project-section-text">
+                  <h2>INDIV Technical Service</h2>
+                  <p><span>Description: </span>This is the layout of a form that is used to register the work done during a technical visit to a poultry farm.</p>
+                  <p><span>Observations: </span>This project was made for the company <a href="https://www.udemy.com/the-complete-web-developer-course-2/" target="_blank">INDIV SA</a>, to help the comunication between the technical department, and the production office..</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="slide">
+          
+          <div class="container-fluid">
+            <div class="row row-eq-height">
+              
+              <div class="col-sm-6">
+                <div class="portfolio-section-image">
+                  <div>
+                    <div class="technologies-used">
+                      <h3>Used technologies:</h3>
+                      <p><a href="http://jquery.com/" target="_blank">JQuery</a></p>
+                    </div>
+                    <div class="viewProject" id="open-online-coder">Open Project!</div>
+                    <img class="project-background" src="images/project-background.png" />
+                    <img src="images/OnlineCoder.png" alt="project-thumnail" />
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-sm-6">
+                <div class="project-section-text">
+                  <h2>OnlineCoder</h2>
+                  <p><span>Description: </span>This is an online coding environment, where you can write your own HTML, CSS and JavaScript files, and check out the document they form together. When you change something in one of the files, you see instantly how this changes the final document.</p>
+                  <p><span>Observations: </span>This project was made as a coding challenge for the course <a href="https://www.udemy.com/the-complete-web-developer-course-2/" target="_blank">"The Complete Web Developer Course 2.0"</a>, and the objective was to use and practice jQuery.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="slide">
+          
+          <div class="container-fluid">
+            <div class="row row-eq-height">
+              
+              <div class="col-sm-6">
+                <div class="portfolio-section-image">
+                  <div>
+                    <div class="technologies-used">
+                      <h3>Used technologies:</h3>
+                      <p><a href="https://www.javascript.com/" target="_blank">JavaScript</a></p>
+                    </div>
+                    <div class="viewProject" id="open-reaction-tester">Open Project!</div>
+                    <img class="project-background" src="images/project-background.png" />
+                    <img src="images/reaction-tester-image.png" alt="project-thumnail" />
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-sm-6">
+                <div class="project-section-text">
+                  <h2>Reaction Tester</h2>
+                  <p><span>Description: </span>This is a mini game, that test your reaction to click an image after it appears. The image pop on a random location (inside the game board), after a random time (no more than 2 seconds), and has a random color and size each time it appears.</p>
+                  <p><span>Observations: </span>This project was made as a coding challenge for the course <a href="https://www.udemy.com/the-complete-web-developer-course-2/" target="_blank">"The Complete Web Developer Course 2.0"</a>, and the objective was to use and practice JavaScript and Random Generators.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="slide">
+          
+          <div class="container-fluid">
+            <div class="row row-eq-height">
+              
+              <div class="col-sm-6">
+                <div class="portfolio-section-image">
+                  <div>
+                    <div class="technologies-used">
+                      <h3>Used technologies:</h3>
+                      <p><a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a></p>
+                      <p><a href="https://www.python.org/" target="_blank">Python</a></p>
+                    </div>
+                    <div class="viewProject" id="open-tf-random-uniform">Open Project!</div>
+                    <img class="project-background" src="images/project-background.png" />
+                    <img src="images/muestra-random-uniform.jpg" alt="project-thumnail" />
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-sm-6">
+                <div class="project-section-text">
+                  <h2>TensorFlow - tf.random_uniform</h2>
+                  <p><span>Description: </span>This is a document that explains how to use a method that comes in the Python library <a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a>. This library is for programming deep neural networks. This specific method generates random numbers that follow a uniform distribution.</p>
+                  <p><span>Observations: </span>This document was made by me, to help me while I was studying. My idea is to write a number of similar documents, and make a blog directed to people that want to learn deep neural networks and TensorFlow.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+     
+    </div>
+    </div> 
+  </section>
+  
+  <section id="contact-section">
+    <div class="central-column">
+      <div class="container-fluid">
+        <div class="row row-eq-height">
+          <div class="col-sm-6">
+            <div class="section-text">
+              <h2>Get in touch!</h2>
+              <p>Do you want to make a website? Do you a have a project in mind? Do you want to talk about something or just know more about me?</p>
+              <p>Please don't hesitate on writing me an email, it will be my pleasure to know you! See you around!</p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+
+            <div class="section-form">
+              <div class="div-form">
+                <form method="POST" name="contact-form" action="contact-form-handler.php">
+                  <div id="form-content">
+                    <div id="form-headers">
+                      <p>Name:</p>
+                      <p>E-mail:</p>
+                      <p>Message</p>
+                    </div>
+                  
+                    <div id="form-inputs" class="form-group has-success has-feedback">
+                      
+                        <p><input type="text" id="name" placeholder="Your name" />
+                        <p><input type="text" id="email" placeholder="Your e-mail" /></p>
+                        <p id="message-area"><textarea id="message" placeholder="Write yor message here"></textarea></p>
+                      
+                    </div>
+                  </div>
+
+                  <div id="button-div">
+                    <input type="submit" id="submit-button" class="btn-primary button-off" value="Send!" />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div id="footer-contact">
+      <div class="central-column">
+        <div class="section-text">
+          <p><a href="https://twitter.com/FedBogado" target="_blank"><i class="fa fa-twitter-square"></i></a><a href="https://github.com/fiquinho" target="_blank"><i class="fa fa-github"></i></a><a href="https://www.linkedin.com/in/federico-bogado-2a5226a9/" target="_blank"><i class="fa fa-linkedin-square"></i></a></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer-copyright">
+      <div class="central-column">
+        <div class="section-text">
+          <p><i class="fa fa-copyright"></i> 2017, Written and Coded by <a class="footer-link" href="http://ficobogado.com/">Federico Bogado</a></p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="scripts/form-validation.js"></script>
+  <script src="scripts/jquery.bxslider.min.js"></script>
+  <script src="scripts/index-scripts.js"></script>
+  
+
+
+
+
+</body>
+
+</html>
